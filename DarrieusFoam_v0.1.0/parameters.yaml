@@ -1,0 +1,12 @@
+project:
+  name: DarrieusFoam
+geometry:
+  blades: 3
+  profile: NACA0018
+  radius: 0.5
+  chord: 0.06
+flow:
+  velocity: 8.0
+simulation:
+  solver: overPimpleDyMFoam
+  tsr: 2.5
